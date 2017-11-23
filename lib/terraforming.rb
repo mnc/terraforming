@@ -1,4 +1,5 @@
 require "aws-sdk-autoscaling"
+require "aws-sdk-cloudfront"
 require "aws-sdk-cloudwatch"
 require "aws-sdk-ec2"
 require "aws-sdk-efs"
@@ -13,6 +14,7 @@ require "aws-sdk-route53"
 require "aws-sdk-s3"
 require "aws-sdk-sns"
 require "aws-sdk-sqs"
+require "aws-sdk-waf"
 
 require "erb"
 require "multi_json"

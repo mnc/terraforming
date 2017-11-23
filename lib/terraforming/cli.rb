@@ -25,6 +25,11 @@ module Terraforming
       execute(Terraforming::Resource::CloudWatchAlarm, options)
     end
 
+    desc "cfd", "CloudFront Distribution"
+    def cf
+      execute(Terraforming::Resource::CloudFrontDistribution, options)
+    end
+
     desc "dbpg", "Database Parameter Group"
     def dbpg
       execute(Terraforming::Resource::DBParameterGroup, options)

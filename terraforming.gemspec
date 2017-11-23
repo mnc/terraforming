@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "aws-sdk-autoscaling", "~> 1"
+  spec.add_dependency "aws-sdk-cloudfront", "~> 1"
   spec.add_dependency "aws-sdk-cloudwatch", "~> 1"
   spec.add_dependency "aws-sdk-ec2", "~> 1"
   spec.add_dependency "aws-sdk-efs", "~> 1"
@@ -34,6 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-s3", "~> 1"
   spec.add_dependency "aws-sdk-sns", "~> 1"
   spec.add_dependency "aws-sdk-sqs", "~> 1"
+  spec.add_dependency "aws-sdk-waf", "~> 1"
   spec.add_dependency "multi_json", "~> 1.12.1"
   spec.add_dependency "thor"
 
